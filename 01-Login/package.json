@@ -9,6 +9,7 @@
     "auth0-js": "^9.0.0",
     "bootstrap": "^3.3.7",
     "dotenv": "^5.0.1",
+    "ps-node": "^0.1.6",
     "react": "^15.5.4",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.5.4",
@@ -17,6 +18,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "stop": "node ./scripts/stop.js",
+    "restart": "npm stop && npm start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
